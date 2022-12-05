@@ -4,8 +4,10 @@ import { Card } from '../../components/Card';
 
 export const Home = () =>{
   return (
-    <View style={styles.container}>
-      <Card/>
+    <View style={styles.container}> 
+      <Card size='s'/>
+      <Card size='m'/>
+      <Card size='l'/>
       <StatusBar style="auto" />
     </View>
   );
